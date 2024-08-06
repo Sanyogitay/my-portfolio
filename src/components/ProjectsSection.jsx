@@ -7,6 +7,28 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Doctor-patient",
+    description:
+      "Book appointments with ease on our doctor-patient platform. Access top healthcare professionals, view availability, and schedule visits at your convenience. Simple, efficient, and user-friendly – your health is our priority.",
+    image: "/images/projects/doctor.png",
+    tag: ["All", "Web"],
+    // gitUrl: "/",s
+    previewUrl: "https://doctor-patients.vercel.app/",
+  },
+
+  {
+    id: 2,
+    title: "Yoga Application",
+    description:
+      "Discover tranquility and wellness with our static yoga website. Explore various yoga poses, routines, and mindfulness techniques. Perfect for all levels, our site offers guidance to help you achieve balance and harmony in body and mind. Start your journey to better health today.",
+    image: "/images/projects/spyys.png",
+    tag: ["All", "Mobile"],
+    // gitUrl: "/",
+    previewUrl: "https://spss-eta.vercel.app/dashboard",
+  },
+  //spyys.png
+  {
+    id: 3,
     title: "Home shapers",
     description:
       "Transform your living space with our innovative home decor solutions. Combining style and functionality, our curated collection of decor items elevates every room. From modern minimalism to classic elegance, discover pieces that reflect your personality and create a welcoming, beautiful home. Redefine your interiors with our expert designs.",
@@ -16,7 +38,7 @@ const projectsData = [
     previewUrl: "https://www.homeshapers.co/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Trip Planing",
     description:
       "Plan your perfect getaway with our trip planning tool. Effortlessly organize itineraries, book accommodations, and discover local attractions. Our platform offers personalized recommendations and real-time updates to ensure a seamless travel experience. Enjoy stress-free planning and make the most of your adventures with our comprehensive trip planning solution",
@@ -26,7 +48,7 @@ const projectsData = [
     previewUrl: "https://gate8.travel/",
   },
   {
-    id: 3,
+    id: 5,
     title: "School-card",
     description:
       "Streamline school management with our SaaS solution. Easily manage student information, track teacher performance, and enhance communication. Our platform offers real-time updates, secure data storage, and comprehensive analytics to improve efficiency and foster a collaborative learning environment. Empower your educational institution with our all-in-one management tool.",
